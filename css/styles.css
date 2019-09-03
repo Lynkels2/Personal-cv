@@ -1,0 +1,117 @@
+body{
+  font-family: sans-serif;
+}
+
+.container {
+    background-color: #000;
+    padding: 50px;
+    width: 500px;
+    margin: 0px auto;
+    color: #fff;
+}
+
+.image-box {
+    margin: 10px;
+    width: 180px;
+    float: left;
+    text-align: center;
+}
+
+.name-box {
+    margin: 10px;
+    width: 280px;
+    float: right;
+    color: #fff;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #fff;
+    border-width: 1px;
+}
+
+h2,
+h3 {
+    color: #008080;
+    text-decoration: underline;
+}
+
+/* comment in css */
+img {
+    border-radius: 100%;
+}
+
+.header {
+    text-align: left;
+}
+
+.contact {
+    text-align: left;
+}
+
+address {
+    text-align: left;
+}
+
+/*Styling for button */
+
+
+/*Styling for the form popup*/
+.form-popup {}
+
+.form-container {
+    background-color: #000;
+    color: white;
+    padding: 15px;
+}
+
+/*Styling for the input*/
+.form-container input[type=text],
+.form-container input[type=email] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/*Styling for the textarea*/
+#message {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When the inputs get focus */
+.form-container input[type=text]:focus,
+#message {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Styling for submit button */
+
+.form-container .btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+/* Styling for close button */
+.form-container .cancel {
+    background-color: orange;
+
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+    opacity: 1;
